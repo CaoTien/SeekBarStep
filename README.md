@@ -24,8 +24,7 @@ SeekBarStep is seekbar that you can set step, min, max
  
 **Listener**
 
-
- mSeekBarStep.setOnSeekBarStepChangeListener(new SeekBarStep.OnSeekBarStepChangeListener() {
+mSeekBarStep.setOnSeekBarStepChangeListener(new SeekBarStep.OnSeekBarStepChangeListener() {
     @Override
     public void onProgressChanged(float progress) {
         int value = (int) progress;
